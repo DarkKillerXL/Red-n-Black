@@ -3,6 +3,7 @@
     background-color: rgb(56, 0, 0);
     border-radius: 0px;
 }
+
 .clickable-2ap7je .header-2o-2hj:hover {
     background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
     background-color: rgb(56, 0, 0);
@@ -14,7 +15,7 @@
     background-color: rgb(56, 0, 0);
 }
 .searchBar-3dMhjb {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .notice-2FJMB4 {
     border-radius: 0px;
@@ -28,7 +29,7 @@
     border-bottom: 1px solid red;
 }
 .titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
-    content: "Red 'n Black by DarkKillerXL";
+    content: "Red 'n Black Dev Version";
     font-size: 15px;
     font-family: Arial;
     font-weight: 600;
@@ -68,75 +69,101 @@
     background-color: red;
 }
 
-/* List */
-.scroller-2wx7Hm, #private-channels, .scroller-1JbKMe /* Channel List */ {
-    background-color: black;
-    border-top: black;
-    border-bottom: 2px solid red;
-}
-.unread-1xRYoj {
-    background-color: rgba(139, 139, 139, 0.2);
-    border: 2px solid black;
-}
-.item-2hkk8m {
-    background-color: red;
-}
-.platform-win .scroller-2TZvBN /* Server List */ {
-    background-color: black;
-}
-.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
-    background-color: rgb(56, 0, 0);
-}
-.expandedFolderIconWrapper-1xLaU-:hover {
-    background-color: rgb(84, 8, 8);
-}
-.bar-30k2ka {
-    background-color: red;
-}
-.numberBadge-2s8kKX  {
-    background-color: red!important;
-}
-.unread-1xRYoj:active, .unread-1xRYoj:hover {
-    background-color: rgb(56, 0, 0);
-    background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
-}
-.childWrapper-anI2G9 {
-    background-color: rgb(56, 0, 0);
-}
-/* Channels */
-.wrapper-1ucjTd:hover .content-3at_AU, .clickable-1JJAn8:hover .layout-2DM8Md {
-    background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px);
-}
-.wrapper-1ucjTd .content-3at_AU, .clickable-1JJAn8 .layout-2DM8Md {
-    background-color: rgb(56, 0, 0);
-    border-radius: 0px;
-}
-.modeSelected-1zApJ_ {
-    background-image: linear-gradient(to right, red, red 1%, black 1%);
-}
-.unread-3zKkbm {
-    background-color: red;
-}
-.name-3_Dsmg {
-    color: white;
-}
-.iconVisibility-1bOqu7 {
-    margin-bottom: 2px;
-    margin-right: 4px;
-}
-.selected-aXhQR6 .layout-2DM8Md {
-    background-color: rgb(56, 0, 0);
-    background-image: linear-gradient(to right, red, red 1%, rgb(56, 0, 0) 1%);
-}
-.users-i_3-kL {
-    background-color: rgb(84, 8, 8);
-}
-.total-3tKGEB {
-    background-color: darkred;
-}
-.total-3tKGEB::after {
-    border-right-color: darkred;
-}
+/* Lists */
+    /* Channel List */
+        .scroller-2wx7Hm, #private-channels, .scroller-1JbKMe {
+            background-color: black;
+            border-top: black;
+            border-bottom: 2px solid red;
+        }
+        .unread-1xRYoj {
+            background-color: rgba(139, 139, 139, 0.2);
+            border: 2px solid black;
+        }
+        .item-2hkk8m {
+            background-color: red;
+        }
+    /* Server List */
+        .wrapper-25eVIn {
+            border-radius: 0px;
+        }
+        .platform-win .scroller-2TZvBN {
+            background-color: black;
+        }
+        .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
+            background-color: rgb(56, 0, 0);
+        }
+        .expandedFolderIconWrapper-1xLaU-:hover {
+            background-color: rgb(84, 8, 8);
+        }
+        .bar-30k2ka {
+            background-color: red;
+        }
+        .numberBadge-2s8kKX  {
+            background-color: red !important;
+        }
+        .unread-1xRYoj:active, .unread-1xRYoj:hover {
+            background-color: rgb(56, 0, 0);
+            background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
+        }
+        .wrapper-1BJsBx {
+            border-radius: 0px;
+        }
+        .childWrapper-anI2G9 {
+            background-color: rgb(56, 0, 0);
+            border-radius: 0px !important;
+        }
+        .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+            background-color: rgb(56, 0, 0);
+            border-radius: 0px !important;
+        }
+        .wrapper-25eVIn.circleButtonMask-2VNJsN {
+            background-color: rgb(56, 0, 0) !important;
+            border-radius: 0px !important;
+        }
+    /* Members */
+        .membersGroup-v9BXpm {
+            background-color: black;
+            padding-bottom: 18px;
+            border-bottom: 2px;
+            border-style: solid;
+            border-image: linear-gradient(to right, black, red 10%) 1;
+            margin-bottom: 8px;
+        }
+    /* Channels */
+        .wrapper-1ucjTd:hover .content-3at_AU, .clickable-1JJAn8:hover .layout-2DM8Md {
+            background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px);
+        }
+        .wrapper-1ucjTd .content-3at_AU, .clickable-1JJAn8 .layout-2DM8Md {
+            background-color: rgb(56, 0, 0);
+            border-radius: 0px;
+        }
+        .modeSelected-1zApJ_ {
+            background-image: linear-gradient(to right, red, red 1%, black 1%);
+        }
+        .unread-3zKkbm {
+            background-color: red;
+        }
+        .name-3_Dsmg {
+            color: white;
+        }
+        .iconVisibility-1bOqu7 {
+            margin-bottom: 2px;
+            margin-right: 4px;
+        }
+        .selected-aXhQR6 .layout-2DM8Md {
+            background-color: rgb(56, 0, 0);
+            background-image: linear-gradient(to right, red, red 1%, rgb(56, 0, 0) 1%);
+        }
+        .users-i_3-kL {
+            background-color: rgb(84, 8, 8);
+        }
+        .total-3tKGEB {
+            background-color: darkred;
+        }
+        .total-3tKGEB::after {
+            border-right-color: darkred;
+        }
 
 /* Member List */
 .members-1998pB {
@@ -168,6 +195,25 @@
     background-color: rgb(56, 0, 0);
     border-bottom: 0px;
 }
+/* Dm Call */
+.root-217Brm {
+    background-color: black;
+}
+.centerButton-3CaNcJ {
+    background-color: black !important;
+}
+.centerButton-3CaNcJ:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.active-1QRrIS {
+    background-color: rgb(56, 0, 0) !important;
+}
+.active-1QRrIS:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.controlIcon-35oS15 > path {
+    fill: white;
+}
 
 
 
@@ -175,7 +221,7 @@
     background-color: rgb(56, 0, 0);
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -217,113 +263,128 @@ visibility: hidden;
 }
 
 /* Settings Page */
-/* General */
-    .side-8zPYf6 > .item-PXvHYJ {
-        background-color: transparent;
-        border-radius: 0px;
-    }
-    .item-PXvHYJ:hover {
-        background-color: rgb(84, 8, 8) !important;
-        background-image: none !important;
-    }
-    .selected-3s45Ha, .selected-3s45Ha:hover {
-        background-color: rgb(84, 8, 8) !important;
-    }
-    .contentRegionScroller-26nc1e {
-        background: url(https://i.imgur.com/6rlzsb8.png) center/cover; 
-    }
-    .sidebarRegionScroller-3MXcoP {
-        background-color: black;
-    }
-    .header-2RyJ0Y, .ui-tab-bar-header {
-        color: red;
-    }
-    .separator-gCa7yv, .ui-tab-bar-separator {
-        background-color: red !important;
-    }
-    .item-PXvHYJ {
-        background-color: rgb(84, 8, 8);
-        margin-top: 3px;
-    }
-    .item-PXvHYJ:hover {
-        background-image: linear-gradient(to right, red, rgb(84, 8, 8) 10%);
-        background-color: rgb(84, 8, 8);
-        margin-top: 3px;
-    }
-    .themeDefault-24hCdX {
-        background: rgb(56, 0, 0) !important;
-    }
-    
-    .themeDefault-24hCdX.valueChecked-m-4IJZ {
-        background: red !important;
-    }
-    
-    .size-3rFEHg:after, .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active:after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active:after {
-        background: black !important;
-        border-radius: 0px;
-        width: 10px;
-        position: relative;
-        right: 1px;
-    }
-    .sizeDefault-2YlOZr {
-        border-radius: 0px;
-    }
-    .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
-        transform: translate3d(25px,0,0)!important;
-    }
-    .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active:after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active:after {
-        width: 10px!important;
-    }
-/* My account */
-    .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
-        background-color: rgba(255, 0, 0, 0.2);
-        border-radius: 0px;
-        border: 0px;
-    }
-    .userInfoViewingButton-2-jbH9 {
-        background-color: black !important;
-        border-radius: 0px;
-    }
-    .userInfoViewingButton-2-jbH9:hover {
-        background-color: red !important;
-    }
-    .flexChild-faoVW3 > .button-38aScr {
-        background-color: black;
-        color: white;
-        border: 0px;
-        border-radius: 0px;
-    }
-    .flexChild-faoVW3 > .button-38aScr:hover {
-        background-color: red;
-    }
-    .children-rWhLdy > .flex-1xMQg5 > .button-38aScr {
-        background-color: black;
-        color: red;
-        border-color: red;
-    }
-    .children-rWhLdy > .flex-1xMQg5 > .button-38aScr:hover {
-        background-color: rgb(56, 0, 0);
-    }
-/* Privacy & Safety */
-.item-26Dhrx {
-    background-color: rgba(255, 0, 0, 0.2);
-    border-radius: 0px;
-    border: 0px;
-}
-/* General */
-
+    /* General */
+        .side-8zPYf6 > .item-PXvHYJ {
+            background-color: transparent;
+            border-radius: 0px;
+        }
+        .item-PXvHYJ:hover {
+            background-color: rgb(84, 8, 8) !important;
+            background-image: none !important;
+        }
+        .selected-3s45Ha, .selected-3s45Ha:hover {
+            background-color: rgb(84, 8, 8) !important;
+        }
+        .contentRegionScroller-26nc1e {
+            background: url(https://i.imgur.com/6rlzsb8.png) center/cover; 
+        }
+        .sidebarRegionScroller-3MXcoP {
+            background-color: black;
+        }
+        .header-2RyJ0Y, .ui-tab-bar-header {
+            color: red;
+        }
+        .separator-gCa7yv, .ui-tab-bar-separator {
+            background-color: red !important;
+        }
+        .item-PXvHYJ {
+            background-color: rgb(84, 8, 8);
+            margin-top: 3px;
+        }
+        .item-PXvHYJ:hover {
+            background-image: linear-gradient(to right, red, rgb(84, 8, 8) 10%);
+            background-color: rgb(84, 8, 8);
+            margin-top: 3px;
+        }
+        .themeDefault-24hCdX {
+            background: rgb(56, 0, 0) !important;
+        }
+        
+        .themeDefault-24hCdX.valueChecked-m-4IJZ {
+            background: darkred !important;
+        }
+        
+        .size-3rFEHg::after, .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active::after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active::after {
+            background: black !important;
+            border-radius: 0px;
+            width: 10px;
+            position: relative;
+            right: 1px;
+        }
+        .sizeDefault-2YlOZr {
+            border-radius: 0px;
+        }
+        .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+            transform: translate3d(25px, 0, 0) !important;
+        }
+        .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active:after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active::after {
+            width: 10px !important;
+        }
+    /* My account */
+        .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
+            background-color: rgba(255, 0, 0, 0.2);
+            border-radius: 0px;
+            border: 0px;
+        }
+        .userInfoViewingButton-2-jbH9 {
+            background-color: black !important;
+            border-radius: 0px;
+        }
+        .userInfoViewingButton-2-jbH9:hover {
+            background-color: red !important;
+        }
+        .flexChild-faoVW3 > .button-38aScr {
+            background-color: black;
+            color: white;
+            border: 0px;
+            border-radius: 0px;
+        }
+        .flexChild-faoVW3 > .button-38aScr:hover {
+            background-color: red;
+        }
+        .children-rWhLdy > .flex-1xMQg5 > .button-38aScr {
+            background-color: black;
+            color: red;
+            border-color: red;
+        }
+        .children-rWhLdy > .flex-1xMQg5 > .button-38aScr:hover {
+            background-color: rgb(56, 0, 0);
+        }
+    /* Privacy & Safety */
+        .item-26Dhrx {
+            background-color: rgba(255, 0, 0, 0.2);
+            border-radius: 0px;
+            border: 0px;
+        }
 /* Better Discord Section */
-.ui-tab-bar-item {
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 0px !important;
-}
-.ui-tab-bar-item:hover, .ui-tab-bar-item.selected {
-    background-color: rgb(84, 8, 8) !important;
-}
+    /* General */
+        .ui-tab-bar-header {
+            color: red !important;
+        }
+        .bd-icon > path + path {
+            fill: red;
+        }
+        .bd-icon > path + path:hover {
+            fill: rgb(84, 8, 8);
+        }
+        .bd-icon > path + path + path {
+            fill: none;
+        }
+        .bd-checkbox:after {
+            background-color: lime;
+        }
+        .ui-tab-bar-item {
+            background-color: transparent;
+            margin-top: 3px;
+            border-radius: 0px !important;
+        }
+        .ui-tab-bar-item:hover, .ui-tab-bar-item.selected {
+            background-color: rgb(84, 8, 8) !important;
+        }
 .bd-pfbtn {
     background-color: black;
     border-radius: 0px;
+    height: 30px;
 }
 .bd-pfbtn:hover {
     background-color: red;
@@ -335,7 +396,7 @@ visibility: hidden;
 .peopleColumn-29fq28 {
     background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
 }
-.nowPlayingScroller-2XrVUt {
+.nowPlayingScroller-2XrVUt, .nowPlayingColumn-2sl4cE {
     background-color: black;
 }
 .itemCard-v9viV7 {
