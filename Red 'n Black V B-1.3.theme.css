@@ -1,84 +1,99 @@
+/**
+* @name Red 'n Black
+* @author  DarkKillerXL#2636
+* @version  B-1.3
+* @description A simple, red and black colored theme
+* @invite aUUeU5m
+* @authorId 332150412763332608
+* @source https://github.com/DarkKillerXL/Red-n-Black
+*/
+
+/*
+
+
+ /$$$$$$$                      /$$       /$$   /$$ /$$ /$$ /$$                    /$$   /$$ /$$      
+| $$__  $$                    | $$      | $$  /$$/|__/| $$| $$                   | $$  / $$| $$      
+| $$  \ $$  /$$$$$$   /$$$$$$ | $$   /$$| $$ /$$/  /$$| $$| $$  /$$$$$$   /$$$$$$|  $$/ $$/| $$      
+| $$  | $$ |____  $$ /$$__  $$| $$  /$$/| $$$$$/  | $$| $$| $$ /$$__  $$ /$$__  $$\  $$$$/ | $$      
+| $$  | $$  /$$$$$$$| $$  \__/| $$$$$$/ | $$  $$  | $$| $$| $$| $$$$$$$$| $$  \__/ >$$  $$ | $$      
+| $$  | $$ /$$__  $$| $$      | $$_  $$ | $$\  $$ | $$| $$| $$| $$_____/| $$      /$$/\  $$| $$      
+| $$$$$$$/|  $$$$$$$| $$      | $$ \  $$| $$ \  $$| $$| $$| $$|  $$$$$$$| $$     | $$  \ $$| $$$$$$$$
+|_______/  \_______/|__/      |__/  \__/|__/  \__/|__/|__/|__/ \_______/|__/     |__/  |__/|________/
+
+
+*/
+
+
 /* Header */
-    .clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
-        background-color: rgb(56, 0, 0);
-        border-radius: 0px;
-    }
-    .clickable-2ap7je .header-2o-2hj:hover {
-        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
-        background-color: rgb(56, 0, 0);
-    }
-    .title-3qD0b- {
-        color: rgb(56, 0, 0);
-    }
-    .chat-3bRxxu {
-        background-color: rgb(56, 0, 0);
-    }
-    .searchBar-3dMhjb {
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-    .notice-2FJMB4 {
-        border-radius: 0px;
-    }
-    .searchBar-6Kv8R2 {
-        background-color: rgb(56, 0, 0);
-    }
-    .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
-        background-color: rgba(0, 0, 0, 0.4);
-    }
-    .notice-2FJMB4 {
-        background-color: rgb(56, 0, 0);
-    }
+.clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+
+.clickable-2ap7je .header-2o-2hj:hover {
+    background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
+    background-color: rgb(56, 0, 0);
+}
+.title-3qD0b- {
+    color: rgb(56, 0, 0);
+}
+.chat-3bRxxu {
+    background-color: rgb(56, 0, 0);
+}
+.searchBar-3dMhjb {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.notice-2FJMB4 {
+    border-radius: 0px;
+}
 /* Windows Bar */
-    .titleBar-AC4pGV {
-        height: 20px;
-        margin-top: 0px;
-        padding-top: 2.5px;
-        background-color: rgb(84, 8, 8);
-        border-bottom: 1px solid red;
-    }
-    .titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
-        content: "Red 'n Black Dev Version";
-        font-size: 15px;
-        font-family: Arial;
-        font-weight: 600;
-        color: red;
-        position: relative;
-    }
-    .wordmarkWindows-1v0lYD svg {
-        display: none;
-    }
+.titleBar-AC4pGV {
+    height: 20px;
+    margin-top: 0px;
+    padding-top: 2.5px;
+    background-color: rgb(84, 8, 8);
+    border-bottom: 1px solid red;
+}
+.titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
+    content: "Red 'n Black v B-1.3";
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 600;
+    color: red;
+    position: relative;
+}
+.wordmarkWindows-1v0lYD svg {
+    display: none;
+}
 
 
 /* Send Message */
-    .scrollableContainer-2NUZem {
-        background-color: rgb(56, 0, 0);
-        border-radius: 0px;
-    }
-    .channelTextArea-rNsIhG {
-        background-color: black;
-        border-radius: 0px;
-    }
+.scrollableContainer-2NUZem {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+.channelTextArea-rNsIhG {
+    background-color: black;
+    border-radius: 0px;
+}
 /* Messages */
-    .mentioned-xhSam7 {
-        background-color: rgba(255, 0, 0, 0.2);
-    }
-    .mentioned-xhSam7:hover {
-        background-color: rgba(155, 0, 0, 0.2) !important;
-    }
-    .mentioned-xhSam7::before {
-        background-color: red;
-    }
-    .container-1ov-mD > * {
-        background-color: rgb(56, 0, 0);
-        border: 0px;
-        border-radius: 0px;
-    }
-    .blockquoteDivider-2hH8H6 {
-        background-color: red;
-    }
-    .emptyChannelIcon-3IXV5M {
-        background-color: rgb(56, 0, 0);
-    }
+.mentioned-xhSam7 {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.mentioned-xhSam7:hover {
+    background-color: rgba(155, 0, 0, 0.2) !important;
+}
+.mentioned-xhSam7::before {
+    background-color: red;
+}
+.container-1ov-mD > * {
+    background-color: rgb(56, 0, 0);
+    border: 0px;
+    border-radius: 0px;
+}
+.blockquoteDivider-2hH8H6 {
+    background-color: red;
+}
 
 /* Lists */
     /* Channel List */
@@ -141,22 +156,6 @@
             border-image: linear-gradient(to right, black, red 10%) 1;
             margin-bottom: 8px;
         }
-        .headerNormal-T_seeN, .headerNormal-T_seeN > .flex-1xMQg5 {
-            background-color: rgb(56, 0, 0) !important;
-            border: 0px;
-        }
-        .body-3iLsc4, .footer-1fjuF6 {
-            background-color: rgb(84, 8, 8) !important;
-        }
-        .userPopout-3XzG_A {
-            background-color: transparent;
-            border: 0px !important;
-        }
-        .quickMessage-2XpSaN {
-            background-color: black !important;
-            border-color: red !important;
-        }
-        
     /* Channels */
         .wrapper-1ucjTd:hover .content-3at_AU, .clickable-1JJAn8:hover .layout-2DM8Md {
             background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px);
@@ -193,54 +192,63 @@
         }
 
 /* Member List */
-    .members-1998pB {
-        background-color: black;
-    }
+.members-1998pB {
+    background-color: black;
+}
 
 /* Username Box */
-    .container-3baos1 {
-        background-color: rgb(56, 0, 0);
-        border-radius: 0px;
-    }
+.container-3baos1 {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
 /* Connected Voice Channel */
-    .container-1giJp5 {
-        background-color: rgb(56, 0, 0);
-        border-bottom: 0px;
-    }
-    .button-1YfofB.buttonColor-7qQbGO {
-        background-color: rgb(56, 0, 0);
-    }
-    .button-1YfofB.buttonColor-7qQbGO:hover {
-        border: 2px solid black;
-        background-color: rgb(56, 0, 0);
-    }
-    .button-14-BFJ.enabled-2cQ-u7:hover {
-        border: 1px solid black;
-        background-color: rgb(56, 0, 0);
-    }
-    .activityPanel-28dQGo {
-        background-color: rgb(56, 0, 0);
-        border-bottom: 0px;
-    }
+.container-1giJp5 {
+    background-color: rgb(56, 0, 0);
+    border-bottom: 0px;
+}
+.button-1YfofB.buttonColor-7qQbGO {
+    background-color: rgb(56, 0, 0);
+}
+.button-1YfofB.buttonColor-7qQbGO:hover {
+    border: 2px solid black;
+    background-color: rgb(56, 0, 0);
+}
+.button-14-BFJ.enabled-2cQ-u7:hover {
+    border: 1px solid black;
+    background-color: rgb(56, 0, 0);
+}
+.activityPanel-28dQGo {
+    background-color: rgb(56, 0, 0);
+    border-bottom: 0px;
+}
 /* Dm Call */
-    .root-217Brm {
-        background-color: black;
-    }
-    .centerButton-3CaNcJ {
-        background-color: black !important;
-    }
-    .centerButton-3CaNcJ:hover {
-        background-color: rgb(84, 8, 8) !important;
-    }
-    .active-1QRrIS {
-        background-color: rgb(56, 0, 0) !important;
-    }
-    .active-1QRrIS:hover {
-        background-color: rgb(84, 8, 8) !important;
-    }
-    .controlIcon-35oS15 > path {
-        fill: white;
-    }
+.root-217Brm {
+    background-color: black;
+}
+.centerButton-3CaNcJ {
+    background-color: black !important;
+}
+.centerButton-3CaNcJ:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.active-1QRrIS {
+    background-color: rgb(56, 0, 0) !important;
+}
+.active-1QRrIS:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.controlIcon-35oS15 > path {
+    fill: white;
+}
+
+
+
+.searchBar-6Kv8R2 {
+    background-color: rgb(56, 0, 0);
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 
 /* Server Announcements */
@@ -258,42 +266,27 @@
 }
 
 /* Background */
-    .chatContent-a9vAAp {
-        background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
-    }
-    .messages-3amgkR {
-        background-color: transparent;
-    }
-    .form-2fGMdU::before {
-        display: none;
-    }
-    .button-1ZiXG9 {
-        background-color: black;
-    }
-    .button-1ZiXG9:hover {
-        background-image: linear-gradient(to right, red, black 50%);
-    }
-    .container-1r6BKw.themed-ANHk51 {
-        background-color: rgb(56, 0, 0);
-    }
-    .children-19S4PO::after {
-    visibility: hidden;
-    }
-    .scroller-9moviB {
-        background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
-    }
-
-
-    .grabber-3mFHz2 {
-        background-color: red;
-        border-color: black;
-    }
-    .bar-2Qqk5Z {
-        background-color: rgb(56, 0, 0) !important;
-    }
-    .barFill-23-gu- {
-        background-color: red;
-    }
+.chatContent-a9vAAp {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+.messages-3amgkR {
+    background-color: transparent;
+}
+.form-2fGMdU::before {
+    display: none;
+}
+.button-1ZiXG9 {
+    background-color: black;
+}
+.button-1ZiXG9:hover {
+    background-image: linear-gradient(to right, red, black 50%);
+}
+.container-1r6BKw.themed-ANHk51 {
+    background-color: rgb(56, 0, 0);
+}
+.children-19S4PO::after {
+visibility: hidden;
+}
 
 /* Settings Page */
     /* General */
@@ -308,7 +301,7 @@
         .selected-3s45Ha, .selected-3s45Ha:hover {
             background-color: rgb(84, 8, 8) !important;
         }
-        .contentRegionScroller-26nc1e, .customScroller-26gWhv {
+        .contentRegionScroller-26nc1e {
             background: url(https://i.imgur.com/6rlzsb8.png) center/cover; 
         }
         .sidebarRegionScroller-3MXcoP {
@@ -389,44 +382,40 @@
             border-radius: 0px;
             border: 0px;
         }
-    /* Better Discord Section */
-        /* General */
-            .ui-tab-bar-header {
-                color: red !important;
-            }
-            .bd-icon > path + path {
-                fill: red;
-            }
-            .bd-icon > path + path:hover {
-                fill: rgb(84, 8, 8);
-            }
-            .bd-icon > path + path + path {
-                fill: none;
-            }
-            .bd-checkbox:after {
-                background-color: lime;
-            }
-            .ui-tab-bar-item {
-                background-color: transparent;
-                margin-top: 3px;
-                border-radius: 0px !important;
-            }
-            .ui-tab-bar-item:hover, .ui-tab-bar-item.selected {
-                background-color: rgb(84, 8, 8) !important;
-            }
-    .bd-pfbtn {
-        background-color: black;
-        border-radius: 0px;
-        height: 30px;
-    }
-    .bd-pfbtn:hover {
-        background-color: red;
-    }
+/* Better Discord Section */
+    /* General */
+        .ui-tab-bar-header {
+            color: red !important;
+        }
+        .bd-icon > path + path {
+            fill: red;
+        }
+        .bd-icon > path + path:hover {
+            fill: rgb(84, 8, 8);
+        }
+        .bd-icon > path + path + path {
+            fill: none;
+        }
+        .bd-checkbox:after {
+            background-color: lime;
+        }
+        .ui-tab-bar-item {
+            background-color: transparent;
+            margin-top: 3px;
+            border-radius: 0px !important;
+        }
+        .ui-tab-bar-item:hover, .ui-tab-bar-item.selected {
+            background-color: rgb(84, 8, 8) !important;
+        }
+.bd-pfbtn {
+    background-color: black;
+    border-radius: 0px;
+    height: 30px;
+}
+.bd-pfbtn:hover {
+    background-color: red;
+}
 
-/* Server Settings */
-    .scroller-305q3I {
-        background-color: transparent;
-    }
 
 
 /* Friends Page */
