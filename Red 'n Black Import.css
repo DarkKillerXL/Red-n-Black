@@ -1,17 +1,21 @@
+
+:root { 
+    --accent: rgb(56, 0, 0);
+}
 /* Header */
 .clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
 }
 .clickable-2ap7je .header-2o-2hj:hover {
     background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .title-3qD0b- {
-    color: rgb(56, 0, 0);
+    color: var(--accent);
 }
 .chat-3bRxxu {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .searchBar-3dMhjb {
     background-color: black;
@@ -20,7 +24,7 @@
     border-radius: 0px;
 }
 .searchBar-6Kv8R2 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
     background-color: rgba(0, 0, 0, 0.4);
@@ -32,7 +36,7 @@
     background-image: none !important;
 }
 .option-96V44q:hover {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
 }
 .option-96V44q::after {
     visibility: hidden;
@@ -40,7 +44,7 @@
 
 
 .notice-2FJMB4 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .akaBadge-1M-1Gw {
     background-color: rgb(84, 8, 8);
@@ -50,7 +54,7 @@
     margin-top: 10px;
 }
 .header-2-Imhb {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .scroller-tlc3kG, .channelHeader-3Gd2xq {
     background-color: rgb(84, 8, 8);
@@ -64,7 +68,7 @@
     background-color: black;
 }
 .button-1-5Aqk:hover {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 
 /* Windows Bar */
@@ -90,13 +94,13 @@
 
 /* Send Message */
 .scrollableContainer-2NUZem {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
 }
 .channelTextArea-rNsIhG {
     width: auto;
     padding-right: 10px;
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
 }
 /* Messages */
@@ -119,10 +123,10 @@
     background-color: red;
 }
 .emptyChannelIcon-3IXV5M {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .reactionInner-15NvIl {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
 }
 .buttons-cl5qTG {
@@ -134,16 +138,16 @@
     border-radius: 0px !important;
 }
 .button-1ZiXG9:hover {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .tile-2OwFgW {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
 }
 .invalidPoop-pnUbq7 {
     background-color: transparent !important;
 }
 .wrapper-35wsBm {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .button-3To2tQ {
     background-color: rgb(84, 8, 8) !important;
@@ -192,7 +196,7 @@
         background-color: black;
     }
     .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
-        background-color: rgb(56, 0, 0);
+        background-color: var(--accent);
     }
     .expandedFolderIconWrapper-1xLaU-:hover {
         background-color: rgb(84, 8, 8);
@@ -204,23 +208,31 @@
         background-color: red !important;
     }
     .unread-1xRYoj:active, .unread-1xRYoj:hover {
-        background-color: rgb(56, 0, 0);
-        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
+        background-color: var(--accent);
+        background-image: linear-gradient(to right, red, var(--accent) 10%);
     }
     .wrapper-1BJsBx {
         border-radius: 0px;
     }
     .childWrapper-anI2G9 {
-        background-color: rgb(56, 0, 0);
+        background-color: var(--accent);
         border-radius: 0px !important;
     }
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-        background-color: rgb(56, 0, 0);
+        background-color: var(--accent);
         border-radius: 0px !important;
     }
     .listItem-2P_4kh > .wrapper-25eVIn.circleButtonMask-2VNJsN {
-        background-color: rgb(56, 0, 0) !important;
+        background-color: var(--accent) !important;
         border-radius: 0px !important;
+    }
+    .circleIconButton-jET_ig {
+   	background-color: var(--accent);
+   	color: black;
+    }
+    .circleIconButton-jET_ig.selected-ugP_am {
+    	color: red;
+    	background-color: var(--accent);
     }
 /* Members */
     .membersGroup-v9BXpm {
@@ -232,7 +244,7 @@
         margin-bottom: 8px;
     }
     .headerNormal-T_seeN, .headerNormal-T_seeN > .flex-1xMQg5 {
-        background-color: rgb(56, 0, 0) !important;
+        background-color: var(--accent) !important;
         border: 0px;
     }
     .body-3iLsc4, .footer-1fjuF6 {
@@ -246,7 +258,7 @@
         color: red !important;
     }
     .scrollbarGhostHairline-1mSOM1 {
-        background-color: rgb(56, 0, 0) !important;
+        background-color: var(--accent) !important;
     }
     .quickMessage-2XpSaN {
         background-color: black !important;
@@ -256,7 +268,7 @@
         border-radius: 0px;
     }
     .layout-2DM8Md:hover {
-        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px) !important;
+        background-image: linear-gradient(to right, red, var(--accent) 20px) !important;
     }
     .listContent-2_qb-y, .membersWrap-2h-GB4 {
         background-color: black !important;
@@ -264,10 +276,10 @@
 
 /* Channels */
     .wrapper-1ucjTd:hover .content-3at_AU, .clickable-1JJAn8:hover .layout-2DM8Md {
-        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px);
+        background-image: linear-gradient(to right, red, var(--accent) 20px);
     }
     .wrapper-1ucjTd .content-3at_AU, .clickable-1JJAn8 .layout-2DM8Md {
-        background-color: rgb(56, 0, 0);
+        background-color: var(--accent);
         border-radius: 0px;
     }
     .modeSelected-1zApJ_ {
@@ -284,8 +296,8 @@
         margin-right: 4px;
     }
     .selected-aXhQR6 .layout-2DM8Md {
-        background-color: rgb(56, 0, 0);
-        background-image: linear-gradient(to right, red, red 1%, rgb(56, 0, 0) 1%);
+        background-color: var(--accent);
+        background-image: linear-gradient(to right, red, red 1%, var(--accent) 1%);
     }
     .users-i_3-kL {
         background-color: rgb(84, 8, 8);
@@ -300,7 +312,7 @@
         padding-left: 8px;
     }
     .selected-3TGCSZ > .content-3xS9Lh {
-        background-color: rgb(56, 0, 0) !important;
+        background-color: var(--accent) !important;
     }
     .content-3xS9Lh:hover {
         background-color: rgb(84, 8, 8) !important;
@@ -317,14 +329,14 @@
 
 /* Username Box */
 .container-3baos1 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
     border-left: 2px solid red;
     border-right: 2px solid red;
 }
 /* Connected Voice Channel */
 .container-1giJp5 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-bottom: 0px;
     border-left: 2px solid red;
     border-right: 2px solid red;
@@ -340,7 +352,7 @@
     border-radius: 0px;
 }
 .activityPanel-28dQGo {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-bottom: 0px;
 }
 /* Dm Call */
@@ -354,7 +366,7 @@
     background-color: rgb(84, 8, 8) !important;
 }
 .active-1QRrIS {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
 }
 .active-1QRrIS:hover {
     background-color: rgb(84, 8, 8) !important;
@@ -366,10 +378,10 @@
 
 /* Server Announcements */
 .channelNotice-1-XFjC.invite-OjTXrW, .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .wrapper-39oAo3 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     border-radius: 0px;
 }
 .button-1YxJv4 {
@@ -379,7 +391,7 @@
 
 /* Stream End */
 .content-2hhZxN, .headerContainer-XvrQPt {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .footer-YNco4b {
     background-color: darkred;
@@ -396,7 +408,7 @@
     display: none;
 }
 .container-1r6BKw.themed-ANHk51 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .children-19S4PO::after {
 visibility: hidden;
@@ -411,7 +423,7 @@ visibility: hidden;
     border-color: black;
 }
 .bar-2Qqk5Z {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
 }
 .barFill-23-gu- {
     background-color: red;
@@ -423,6 +435,9 @@ visibility: hidden;
 
 /* Settings Page */
 /* General */
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+   max-width: 100%;
+}
     .side-8zPYf6 > .item-PXvHYJ {
         background-color: transparent;
         border-radius: 0px;
@@ -456,7 +471,7 @@ visibility: hidden;
         margin-top: 3px;
     }
     .themeDefault-24hCdX {
-        background: rgb(56, 0, 0) !important;
+        background: var(--accent) !important;
     }
     
     .themeDefault-24hCdX.valueChecked-m-4IJZ {
@@ -507,7 +522,7 @@ visibility: hidden;
         border-color: red;
     }
     .children-rWhLdy > .flex-1xMQg5 > .button-38aScr:hover {
-        background-color: rgb(56, 0, 0);
+        background-color: var(--accent);
     }
 /* Privacy & Safety */
     .item-26Dhrx {
@@ -592,7 +607,7 @@ visibility: hidden;
     border-radius: 0px;
 }
 .actionButton-uPB8Fs:hover {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 
 .popout-38lTFE {
@@ -601,7 +616,7 @@ visibility: hidden;
     margin-right: 14px;
 }
 .wrapper-3Rixsz:hover, .memberListContainer-13tNU9 > .flex-1xMQg5:hover {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
     border-radius: 0px;
 }
 .separator-XqIyoz {
@@ -610,7 +625,7 @@ visibility: hidden;
 
 /* Profile Page */
 .header-QKLPzZ, .activity-1ythUs, .tabBarContainer-1s1u-z, .tabBarItem-1b8RUP {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
     border: 0px;
 }
 .infoScroller-3EYYns, .body-3ND3kc {
@@ -698,7 +713,7 @@ visibility: hidden;
 }
 
 .button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     margin-right: 4px;
 }
 .button-F9qN4n, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
@@ -707,21 +722,21 @@ visibility: hidden;
     margin-right: 4px;
 }
 .focused-3afm-j {
-    background-color: rgb(56, 0, 0) !important;
+    background-color: var(--accent) !important;
     background-image: none;
 }
 .headerPlaying-j0WQBV {
     background-color: rgb(84, 8, 8);
 }
 .activityUserPopout-2yItg2 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
     outline-color: red !important;
 }
 
 
 /* Popups */
 .footer-2gL1pp {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
 .horizontalReverse-2eTKWD > .button-38aScr {
     background-color: black !important;
@@ -738,5 +753,35 @@ visibility: hidden;
     background-color: rgb(84, 8, 8) !important;
 }
 .modal-yWgWj- > .flex-1xMQg5 > .vertical-V37hAW.flex-1xMQg5 {
-    background-color: rgb(56, 0, 0);
+    background-color: var(--accent);
 }
+/* Server Discovery */
+.pageWrapper-1PgVDX {background: url(https://i.imgur.com/6rlzsb8.png) center/cover;}
+img.headerImage-3X1tyY { display: none!important;}
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+    box-shadow: none;
+    border-color: red;
+}
+
+.theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe, .theme-light .card-3DjzTQ,
+ .theme-light .cardPlaceholder-1zrbbe, .css-1wqqa50-container {background-color: var(--accent);}
+#app-mount .searchBox-3Y2Vi7, .theme-dark .card-3DjzTQ:hover, .theme-dark .cardPlaceholder-1zrbbe:hover, .theme-light .card-3DjzTQ:hover, .theme-light .cardPlaceholder-1zrbbe:hover {
+    background-color: var(--accent); 
+    box-shadow: inset 0 0 0 2px red;
+}
+.iconMask-3b8GzQ, .iconMask-3b8GzQ:hover { background: black!important;}
+
+/* Quick Switcher */
+.quickswitcher-3JagVE {
+    -webkit-box-shadow:none;  box-shadow: none; 
+    background-color: rgb(84, 8, 8);
+}
+.input-2VB9rf {background-color: var(--accent);}
+.scroller-zPkAnE {background-color: transparent;}
+.resultFocused-3aIoYe {background: linear-gradient(to right, red, red 1%, var(--accent) 1%);}
+
+/* Gif & Emoji Pickers */
+.contentWrapper-SvZHNd, .categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover, .guildIcon-3h-1IH:hover, #app-mount .autocomplete-1vrmpx {background-color: rgb(84, 8, 8);}
+.navButtonActive-1MkytQ, .container-cMG81i, .result-3w1ZcL, .searchBar-5di9mG, .wrapper-2Gsate, .emojiItemSelected-1aLkfV, .inspector-sdLnLS {background-color: var(--accent)!important;}
+#app-mount .categoryFade-2ybR1J, .theme-light .categoryFade-2ybR1J, .wrapper-1-Fsb8, .guildIcon-3h-1IH { background: transparent;}
+.theme-dark .selectorSelected-1_M1WV {background: linear-gradient(to right, red, red 1%, var(--accent) 1%);}
