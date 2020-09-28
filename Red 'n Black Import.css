@@ -1,3 +1,43 @@
+/* Plugin's */
+    /* Channel Tabs */
+    .channelTabs-favContainer {
+        background-color: rgb(84, 8, 8);
+        border-bottom: 1px solid red;
+    }
+    .channelTabs-fav {
+        border-radius: 0px;
+    }
+    .channelTabs-fav:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .channelTabs-tabContainer {
+        background-color: rgb(56, 0, 0);
+    }
+    .channelTabs-selected {
+        background-color: rgb(84, 8, 8);
+    }
+    .channelTabs-tab {
+        border-radius: 0px;
+    }
+    .channelTabs-tab:hover {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+    }
+    .channelTabs-newTab {
+        margin-left: 1px;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: red;
+    }
+    .channelTabs-newTab:hover {
+        background-color: rgb(84, 8, 8);
+    }
+    .channelTabs-closeTab {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        color: red;
+    }
+    .channelTabs-closeTab:hover {
+        background-color: rgb(84, 8, 8) !important;
+    }
+
 /* Header */
 .clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
     background-color: rgb(56, 0, 0);
@@ -100,7 +140,7 @@
     border-bottom: 1px solid red;
 }
 .titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
-    content: "Red 'n Black v B-1.6";
+    content: "Red 'n Black Dev Version";
     font-size: 15px;
     font-family: Arial;
     font-weight: 600;
