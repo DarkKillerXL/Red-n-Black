@@ -1,0 +1,1051 @@
+/**
+* @name Red 'n Black B-1.7
+* @author  DarkKillerXL#2636
+* @version  B-1.7
+* @description A simple, red and black colored theme
+* @invite aUUeU5m
+* @authorId 332150412763332608
+* @source https://github.com/DarkKillerXL/Red-n-Black
+*/
+
+/*
+
+
+ /$$$$$$$                      /$$       /$$   /$$ /$$ /$$ /$$                    /$$   /$$ /$$      
+| $$__  $$                    | $$      | $$  /$$/|__/| $$| $$                   | $$  / $$| $$      
+| $$  \ $$  /$$$$$$   /$$$$$$ | $$   /$$| $$ /$$/  /$$| $$| $$  /$$$$$$   /$$$$$$|  $$/ $$/| $$      
+| $$  | $$ |____  $$ /$$__  $$| $$  /$$/| $$$$$/  | $$| $$| $$ /$$__  $$ /$$__  $$\  $$$$/ | $$      
+| $$  | $$  /$$$$$$$| $$  \__/| $$$$$$/ | $$  $$  | $$| $$| $$| $$$$$$$$| $$  \__/ >$$  $$ | $$      
+| $$  | $$ /$$__  $$| $$      | $$_  $$ | $$\  $$ | $$| $$| $$| $$_____/| $$      /$$/\  $$| $$      
+| $$$$$$$/|  $$$$$$$| $$      | $$ \  $$| $$ \  $$| $$| $$| $$|  $$$$$$$| $$     | $$  \ $$| $$$$$$$$
+|_______/  \_______/|__/      |__/  \__/|__/  \__/|__/|__/|__/ \_______/|__/     |__/  |__/|________/
+
+
+*/
+
+/* Plugin's */
+    /* Channel Tabs */
+    .channelTabs-favContainer {
+        background-color: rgb(84, 8, 8);
+        border-bottom: 1px solid red;
+    }
+    .channelTabs-fav {
+        border-radius: 0px;
+    }
+    .channelTabs-fav:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .channelTabs-tabContainer {
+        background-color: rgb(56, 0, 0);
+    }
+    .channelTabs-selected {
+        background-color: rgb(84, 8, 8);
+    }
+    .channelTabs-tab {
+        border-radius: 0px;
+    }
+    .channelTabs-tab:hover {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+    }
+    .channelTabs-newTab {
+        margin-left: 1px;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: red;
+    }
+    .channelTabs-newTab:hover {
+        background-color: rgb(84, 8, 8);
+    }
+    .channelTabs-closeTab {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        color: red;
+    }
+    .channelTabs-closeTab:hover {
+        background-color: rgb(84, 8, 8) !important;
+    }
+/* Account Switcher */
+    .accountswitcher-switchmenu {
+        background-color: rgb(84, 8, 8);
+        border-radius: 0px;
+    }
+    .accountswitcher-removeaccount {
+        border: 0px;
+        color: red;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .accountswitcher-removeaccount:hover {
+        background-color: rgb(84, 8, 8) !important;
+        border: 1px solid red;
+    }
+
+/* Header */
+.clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+.clickable-2ap7je .header-2o-2hj:hover {
+    background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
+    background-color: rgb(56, 0, 0);
+}
+.chat-3bRxxu {
+    background-color: rgb(56, 0, 0);
+}
+.searchBar-3dMhjb {
+    background-color: black;
+}
+.notice-2FJMB4 {
+    border-radius: 0px;
+}
+.searchBar-6Kv8R2 {
+    background-color: rgb(56, 0, 0);
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.searchHeader-1EzJGH {
+    background-color: rgb(56, 0, 0);
+}
+.scroller-3GIiMh {
+    background-color: black;
+}
+.searchResult-2N9RV4::before, .searchResult-2N9RV4::after {
+    visibility: hidden;
+}
+.searchResultMessage-30QnSN.hit-1CXhXT {
+    background-color: rgb(56, 0, 0) !important;
+    border-color: black;
+    box-shadow: 0 0 50px black;
+}
+.channelName-wvgELL {
+    background-color: transparent;
+}
+.channelSeparator-dTqJ4K::before {
+    visibility: hidden;
+}
+.resultsGroup-r_nuzN {
+    background-color: black !important;
+    background-image: none !important;
+}
+.option-96V44q:hover.selected {
+    background-color: rgb(56, 0, 0) !important;
+}
+.option-96V44q::after {
+    visibility: hidden;
+}
+.notice-2FJMB4 {
+    background-color: rgb(56, 0, 0);
+}
+.akaBadge-1M-1Gw {
+    background-color: rgb(84, 8, 8);
+}
+.container-enaOkj {
+    margin-top: 10px;
+}
+.header-2-Imhb {
+    background-color: rgb(56, 0, 0);
+}
+.scroller-tlc3kG, .channelHeader-3Gd2xq {
+    background-color: rgb(84, 8, 8);
+}
+.messages-3G3erD {
+    border: 1px solid red;
+    background-color: black;
+}
+.button-1-5Aqk {
+    border-radius: 0px;
+    background-color: black;
+}
+.button-1-5Aqk:hover {
+    background-color: rgb(56, 0, 0);
+}
+.newMessagesBar-mujexs {
+    border-radius: 0px;
+    margin-top: 5px;
+    background-color: darkred;
+}
+.jumpToPresentBar-9P20AM {
+    border-radius: 0px;
+    margin-bottom: 15px !important;
+    padding-bottom: 0px !important;
+    background-color: rgb(56, 0, 0);
+    opacity: 1;
+}
+
+/* Loading */
+.container-16j22k {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+.tipTitle-GL9qAt {
+    color: red;
+}
+.wrapper-3vR61M, .wrapper-1F5TKx {
+    background-color: transparent !important;
+}
+.noChannel-Z1DQK7 {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+
+/* Windows Bar */
+.titleBar-AC4pGV {
+    height: 20px;
+    margin-top: 0px;
+    padding-top: 2.5px;
+    background-color: rgb(84, 8, 8);
+    border-bottom: 1px solid red;
+}
+.titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
+    content: "Red 'n Black v B-1.7";
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 600;
+    color: red;
+    position: relative;
+}
+.wordmarkWindows-1v0lYD svg {
+    display: none;
+}
+
+
+/* Send Message */
+.scrollableContainer-2NUZem {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+.channelTextArea-rNsIhG {
+    width: auto;
+    padding-right: 10px;
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+/* Messages */
+.mentioned-xhSam7 {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.mentioned-xhSam7:hover {
+    background-color: rgba(155, 0, 0, 0.2) !important;
+}
+.mentioned-xhSam7::before {
+    border-radius: 0px;
+    background-color: red;
+}
+.localBot-GrCgVt {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.localBot-GrCgVt:hover {
+    background-color: rgba(155, 0, 0, 0.2) !important;
+}
+.localBot-GrCgVt::before, .botTagCozy-1fFsZk, .botTag-3W9SuW, .blockquoteDivider-2hH8H6, .bot-2Fta1w {
+    border-radius: 0px !important;
+    background-color: red;
+}
+.botText-1526X_ {
+    color: white;
+}
+.emptyChannelIcon-3IXV5M {
+    background-color: rgb(56, 0, 0);
+}
+.reactionInner-15NvIl {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+.buttons-cl5qTG {
+    position: absolute;
+    top: auto;
+}
+.button-1ZiXG9 {
+    background-color: black;
+    border-radius: 0px !important;
+}
+.button-1ZiXG9:hover {
+    background-color: rgb(56, 0, 0);
+}
+.tile-2OwFgW {
+    background-color: rgb(56, 0, 0) !important;
+}
+.invalidPoop-pnUbq7 {
+    background-color: transparent !important;
+}
+.wrapper-35wsBm {
+    background-color: rgb(56, 0, 0);
+}
+.button-3To2tQ {
+    background-color: rgb(84, 8, 8) !important;
+}
+.button-3To2tQ:hover {
+    background-color: red !important;
+}
+.actions-3p06E9 > .button-38aScr {
+    background-color: rgb(84, 8, 8);
+}
+.actions-3p06E9 > .button-38aScr:disabled {
+    background-color: rgb(84, 8, 8);
+}
+.actions-3p06E9 > .button-38aScr:hover {
+    background-color: red;
+}
+.attachment-33OFj0 {
+    background-color: rgb(56, 0, 0);
+    border: 0px;
+    border-radius: 0px;
+}
+.hasMore-3e72_v {
+    border: 1px solid red;
+    color: red;
+}
+
+/* Lists */
+/* Channel List */
+    .scroller-2wx7Hm, #private-channels, .scroller-1JbKMe {
+        background-color: black;
+        border-top: black;
+        border-bottom: 2px solid red;
+    }
+    .unread-1xRYoj {
+        background-color: rgba(139, 139, 139, 0.2);
+        border: 2px solid black;
+    }
+    .item-2hkk8m {
+        border-radius: 0px;
+        background-color: red;
+    }
+
+    .iconVisibility-1yaA_k {
+        border-bottom: 2px solid;
+        border-image: linear-gradient(to right, black, red 10%, red 90%, black) 1;
+        margin-bottom: 8px;
+    }
+    .icon-1_QxNX {
+        color: red !important;
+    }
+/* Server List */
+    .wrapper-25eVIn {
+        border-radius: 0px;
+    }
+    .platform-win .scroller-2TZvBN {
+        background-color: black;
+    }
+    .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
+        background-color: rgb(56, 0, 0);
+    }
+    .expandedFolderIconWrapper-1xLaU-:hover {
+        background-color: rgb(84, 8, 8);
+    }
+    .bar-30k2ka {
+        border-radius: 0px;
+        background-color: red;
+    }
+    .numberBadge-2s8kKX  {
+        background-color: red !important;
+    }
+    .unread-1xRYoj:active, .unread-1xRYoj:hover {
+        background-color: rgb(56, 0, 0);
+        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 10%);
+    }
+    .wrapper-1BJsBx {
+        border-radius: 0px;
+    }
+    .childWrapper-anI2G9 {
+        background-color: rgb(56, 0, 0);
+        border-radius: 0px !important;
+    }
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+        background-color: rgb(56, 0, 0);
+        border-radius: 0px !important;
+    }
+    .listItem-2P_4kh > .wrapper-25eVIn.circleButtonMask-2VNJsN {
+        background-color: rgb(56, 0, 0) !important;
+        border-radius: 0px !important;
+    }
+    
+    
+/* Members */
+    .membersGroup-v9BXpm {
+        background-color: black;
+        padding-bottom: 18px;
+        border-bottom: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to right, black, red 10%) 1;
+        margin-bottom: 8px;
+    }
+    .headerNormal-T_seeN, .headerNormal-T_seeN > .flex-1xMQg5 {
+        background-color: rgb(56, 0, 0) !important;
+        border: 0px;
+    }
+    .body-3iLsc4, .footer-1fjuF6 {
+        background-color: rgb(84, 8, 8) !important;
+        border: 0px;
+    }
+    .userPopout-3XzG_A {
+        box-shadow: 0 0px;
+        border-radius: 0px;
+        background-color: transparent;
+        border: 0px !important;
+    }
+    .pro-1T8RK7 {
+        color: red !important;
+    }
+    .scrollbarGhostHairline-1mSOM1 {
+        background-color: rgb(56, 0, 0) !important;
+    }
+    .quickMessage-2XpSaN {
+        background-color: black !important;
+        border-color: red !important;
+    }
+    .layout-2DM8Md {
+        border-radius: 0px;
+    }
+    .layout-2DM8Md:hover {
+        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px) !important;
+    }
+    .listContent-2_qb-y, .membersWrap-2h-GB4 {
+        background-color: black !important;
+    }
+
+/* Channels */
+    .wrapper-1ucjTd:hover .content-3at_AU, .clickable-1JJAn8:hover .layout-2DM8Md {
+        background-image: linear-gradient(to right, red, rgb(56, 0, 0) 20px);
+    }
+    .wrapper-1ucjTd .content-3at_AU, .clickable-1JJAn8 .layout-2DM8Md {
+        background-color: rgb(56, 0, 0);
+        border-radius: 0px;
+    }
+    .modeSelected-1zApJ_ {
+        background-image: linear-gradient(to right, red, red 1%, black 1%);
+    }
+    .unread-3zKkbm {
+        background-color: red;
+    }
+    .name-3_Dsmg {
+        color: white;
+    }
+    .iconVisibility-1bOqu7 {
+        margin-bottom: 2px;
+        margin-right: 4px;
+    }
+    
+    .selected-aXhQR6 .layout-2DM8Md {
+        background-color: rgb(56, 0, 0);
+        background-image: linear-gradient(to right, red, red 1%, rgb(56, 0, 0) 1%);
+    }
+    .users-i_3-kL {
+        background-color: rgb(84, 8, 8);
+    }
+    .total-3tKGEB {
+        background-color: darkred;
+    }
+    .total-3tKGEB::after {
+        border-right-color: darkred;
+    }
+    .list-2bwCXU {
+        padding-left: 8px;
+    }
+    .selected-3TGCSZ > .content-3xS9Lh {
+        background-color: rgb(56, 0, 0) !important;
+    }
+    .content-3xS9Lh:hover {
+        background-color: rgb(84, 8, 8) !important;
+    }
+    .content-3xS9Lh {
+        border-radius: 0px;
+        margin-right: 4px;
+    }
+
+/* Member List */
+.members-1998pB {
+    background-color: black;
+}
+.content-3YMskv {
+    background-color: transparent !important;
+}
+
+/* Username Box */
+.container-3baos1 {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+/* Connected Voice Channel */
+.container-1giJp5 {
+    background-color: rgb(56, 0, 0);
+    border-bottom: 0px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.button-1YfofB.buttonColor-7qQbGO {
+    border-radius: 0px;
+    background-color: transparent;
+}
+.button-1YfofB.buttonColor-7qQbGO:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.button-14-BFJ.enabled-2cQ-u7:hover {
+    background-color: rgb(84, 8, 8);
+    border-radius: 0px;
+}
+.activityPanel-28dQGo {
+    background-color: rgb(56, 0, 0);
+    border-bottom: 0px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+/* Dm Call */
+.root-217Brm {
+    background-color: black;
+}
+.centerButton-3CaNcJ {
+    background-color: black !important;
+}
+.centerButton-3CaNcJ:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.active-1QRrIS {
+    background-color: rgb(56, 0, 0) !important;
+}
+.active-1QRrIS:hover {
+    background-color: rgb(84, 8, 8) !important;
+}
+.controlIcon-35oS15 > path {
+    fill: white;
+}
+
+
+/* Server Announcements */
+.channelNotice-1-XFjC.invite-OjTXrW, .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+    background-color: rgb(56, 0, 0);
+}
+.wrapper-39oAo3 {
+    background-color: rgb(56, 0, 0);
+    border-radius: 0px;
+}
+.button-1YxJv4 {
+    background-color: black !important;
+    border-radius: 0px;
+}
+
+/* Stream End */
+.content-2hhZxN, .headerContainer-XvrQPt {
+    background-color: rgb(56, 0, 0);
+}
+.footer-YNco4b {
+    background-color: darkred;
+}
+
+/* Background */
+.chatContent-a9vAAp {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+.messages-3amgkR {
+    background-color: transparent;
+}
+.form-2fGMdU::before {
+    display: none;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background-color: rgb(56, 0, 0);
+}
+.children-19S4PO::after {
+visibility: hidden;
+}
+.scroller-9moviB {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+
+
+.grabber-3mFHz2 {
+    background-color: red;
+    border-color: black;
+}
+.bar-2Qqk5Z {
+    background-color: rgb(56, 0, 0) !important;
+}
+.barFill-23-gu- {
+    background-color: red;
+}
+
+:root {
+    background-color: black;
+}
+
+/* Settings Page */
+/* General */
+    .side-8zPYf6 > .item-PXvHYJ {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .item-PXvHYJ:hover, .selected-3s45Ha, .selected-3s45Ha:hover {
+        background-color: rgb(56, 0, 0) !important;
+        background-image: none !important;
+    }
+    .contentRegionScroller-26nc1e, .customScroller-26gWhv {
+        background: url(https://i.imgur.com/6rlzsb8.png) center/cover; 
+    }
+    .sidebarRegionScroller-3MXcoP {
+        background-color: black;
+    }
+    .header-2RyJ0Y, .ui-tab-bar-header {
+        color: red;
+    }
+    .separator-gCa7yv, .ui-tab-bar-separator {
+        background-color: red !important;
+    }
+    .item-PXvHYJ {
+        background-color: rgb(84, 8, 8);
+        margin-top: 3px;
+    }
+    .item-PXvHYJ:hover {
+        background-image: linear-gradient(to right, red, rgb(84, 8, 8) 10%);
+        background-color: rgb(84, 8, 8);
+        margin-top: 3px;
+    }
+    .themeDefault-24hCdX {
+        background: rgb(56, 0, 0) !important;
+    }
+    .themeDefault-24hCdX.valueChecked-m-4IJZ {
+        background: darkred !important;
+    }
+    .size-3rFEHg::after, .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active::after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active::after {
+        background: black !important;
+        border-radius: 0px;
+        width: 10px;
+        right: 1px;
+    }
+    .sizeDefault-2YlOZr {
+        border-radius: 0px;
+    }
+    .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+        transform: translate3d(25px, 0, 0) !important;
+    }
+    .valueUnchecked-2lU_20.sizeDefault-2YlOZr:active:after, .valueChecked-m-4IJZ.sizeDefault-2YlOZr:active::after {
+        width: 10px !important;
+    }
+    .divider-3573oO {
+        visibility: hidden;
+    }
+/* My account */
+    .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT, .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
+        background-color: rgba(255, 0, 0, 0.2);
+        border-radius: 0px;
+        border: 0px;
+    }
+    .userInfoViewingButton-2-jbH9 {
+        background-color: black !important;
+        border-radius: 0px;
+    }
+    .userInfoViewingButton-2-jbH9:hover {
+        background-color: red !important;
+    }
+    .flexChild-faoVW3 > .button-38aScr {
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-radius: 0px;
+    }
+    .flexChild-faoVW3 > .button-38aScr:hover {
+        background-color: rgb(56, 0, 0);
+    }
+    .children-rWhLdy > .flex-1xMQg5 > .button-38aScr {
+        background-color: black;
+        color: red;
+        border-color: red;
+    }
+    .children-rWhLdy > .flex-1xMQg5 > .button-38aScr:hover {
+        background-color: rgb(56, 0, 0);
+    }
+/* Privacy & Safety */
+    .item-26Dhrx {
+        background-color: rgba(255, 0, 0, 0.2);
+        border-radius: 0px;
+        border: 0px;
+    }
+    .item-26Dhrx {
+        background-color: black !important;
+    }
+/* Authorized Apps */
+    .authedApp-mj2Hmd {
+        background-color: black;
+        border-radius: 0px;
+        border: 1px solid red;
+    }
+    .formNotice-2_hHWR {
+        background-color: black;
+        border-radius: 0px;
+        border: 1px solid red;
+    }
+/* Connections */
+    .accountList-33MS45 {
+        background-color: black;
+        border-radius: 0px;
+        border: 1px solid red;
+    }
+    .inner-2Y6JuD {
+        background-color: transparent !important;
+        border-radius: 0px;
+    }
+    .inner-2Y6JuD:hover {
+        background-color: rgb(56, 0, 0) !important;
+    }
+    .connection-1fbD7X {
+        border-radius: 0px;
+    }
+/* Billing */
+    .codeRedemptionRedirect-1wVR4b {
+        background-color: black !important;
+        border-radius: 0px;
+        border: 1px solid red !important;
+    }
+    .contentColumn-2hrIYH > div > div > .flex-1xMQg5.flex-1O1GKY > .button-38aScr {
+        background-color: black;
+        border-radius: 0px;
+    }
+    .contentColumn-2hrIYH > div > div > .flex-1xMQg5.flex-1O1GKY > .button-38aScr:hover {
+        background-color: rgb(56, 0, 0);
+        border-radius: 0px;
+    }
+/* Discord Nitro */
+    .feature-2w65J5 {
+        background-color: rgb(84, 8, 8) !important;
+    }
+    .promotionBanner-1fCSab {
+        background-color: rgb(84, 8, 8);
+    }
+
+/* Server Boost */
+    .cardWrapper-2Min21 {
+        background-color: rgb(84, 8, 8);
+    }
+/* Better Discord Section */
+/* General */
+    .ui-tab-bar-header {
+        color: red !important;
+    }
+    .bd-icon > path + path {
+        fill: red;
+    }
+    .bd-icon > path + path:hover {
+        fill: rgb(84, 8, 8);
+    }
+    .bd-icon > path + path + path {
+        fill: none;
+    }
+    .ui-tab-bar-item {
+        background-color: transparent;
+        margin-top: 3px;
+        border-radius: 0px !important;
+    }
+    .ui-tab-bar-item:hover, .ui-tab-bar-item.selected {
+        background-color: rgb(56, 0, 0) !important;
+    }
+    .bd-switch {
+        border-radius: 0px;
+        background-color: rgb(56, 0, 0);
+    }
+    .bd-switch-checked {
+        background-color: darkred;
+    }
+    .bd-switch::after {
+        border-radius: 0px;
+        background-color: black;
+        width: 10px;            
+    }
+    .bd-switch-checked::after {
+        transform: translate3d(25px, 0, 0) !important;
+    }
+    .bd-pfbtn {
+        background-color: black;
+        border-radius: 0px;
+        height: 30px;
+    }
+    .bd-pfbtn:hover {
+        background-color: red;
+    }
+    .ui-form-text {
+        border: 0px !important;
+    }
+/* Custom CSS */
+    .ace_content {
+        background-color: rgb(56, 0, 0) !important;
+    }
+    .ace_active-line, .ace_gutter-active-line {
+        background-color: black !important;
+    }
+    .ace_gutter {
+        color: white;
+        background-color: rgb(84, 8, 8) !important;
+    }
+    #bd-customcss-attach-controls {
+        background-color: black !important;
+        box-shadow: 0 0px !important;
+    }
+    .btn.btn-primary {
+        background-color: rgb(56, 0, 0) !important;
+        margin-right: 5px !important;
+        border-radius: 0px !important;
+        border-color: transparent !important;
+    }
+    .btn.btn-primary:hover {
+        background-color: rgb(84, 8, 8) !important;
+    }
+    .inline {
+        background-color: rgb(56, 0, 0) !important;
+    }
+
+
+/* Server Settings */
+.scroller-305q3I {
+    background-color: transparent;
+}
+
+
+/* Friends Page */
+.peopleColumn-29fq28 {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+.nowPlayingScroller-2XrVUt, .nowPlayingColumn-2sl4cE {
+    background-color: black;
+}
+.itemCard-v9viV7 {
+    background-color: rgb(84, 8, 8) !important;
+}
+.itemCard-v9viV7:hover {
+    background-color: rgb(84, 8, 8);
+    background-image: linear-gradient(to right, red, rgb(84, 8, 8) 10%);
+}
+.section-2gLsgF {
+    background-color: darkred;
+}
+.item-3HknzM {
+    background-color: darkred;
+}
+.peopleListItem-2nzedh:hover {
+    border-radius: 0px;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.actionButton-uPB8Fs {
+    background-color: black !important;
+    border-radius: 0px;
+}
+.actionButton-uPB8Fs:hover {
+    background-color: rgb(56, 0, 0);
+}
+
+.popout-38lTFE {
+    background-color: black !important;
+    border-radius: 0px;
+    margin-right: 14px;
+}
+.wrapper-3Rixsz:hover, .memberListContainer-13tNU9 > .flex-1xMQg5:hover {
+    background-color: rgb(56, 0, 0) !important;
+    border-radius: 0px;
+}
+.separator-XqIyoz {
+    background-color: red !important;
+}
+.container-36W3SS {
+    background-color: black;
+}
+
+/* Profile Page */
+.header-QKLPzZ, .activity-1ythUs, .tabBarContainer-1s1u-z, .tabBarItem-1b8RUP {
+    background-color: rgb(56, 0, 0) !important;
+    border: 0px;
+}
+.infoScroller-3EYYns, .body-3ND3kc {
+    background-color: rgb(84, 8, 8) !important;  
+}
+.connectedAccounts-repVzS > .flex-1xMQg5, .actionButton-3W1xZa {
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid red;
+}
+
+/* Code Block */
+.markup-2BOw-j code {
+    background-color: black !important;
+    border: 1px solid red;
+    border-radius: 0px;
+}
+
+.grid-1nZz7S {
+    background-color: black;
+}
+
+
+
+/* Chat Date Dividers */
+.divider-3_HH5L /* Line */ {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red 10%, red 90%, rgba(0, 0, 0, 0) 100%);
+    height: 2px;
+}
+.content-1o0f9g /* Date */ {
+    border-radius: 0px;
+    background-color: black;
+    color: red !important;
+    border: 1px solid red;
+}
+/* Chat Unread Dividers */
+.isUnread-3Ef-o9 /* Line */ {
+    border: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red 10%);
+}
+.unreadPill-2HyYtt /* New Label */ {
+    background-color: red;
+    position: absolute;
+    top: auto;
+}
+.unreadPillCapStroke-7rkHbg /* New Label Arrow */ {
+    color: red;
+    fill: red;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar { 
+    width: 2px !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: red !important;
+    border: none !important;
+    border-radius: 0px;
+}
+.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border: none !important;
+}
+.scroller-3BxosC > ::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+
+/* Right Click Menu */
+.item-1tOPte {
+    margin-right: 0px;
+    border-radius: 0px;
+}
+
+.accommodateScrollbar-21WtU7, .scroller-3BxosC {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    border-radius: 0px;
+    padding-right: 4px !important;
+}
+
+.button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+    background-color: rgb(56, 0, 0);
+    margin-right: 4px;
+}
+.button-F9qN4n, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+    background-color: black;
+    border-radius: 0px;
+    margin-right: 4px;
+}
+.focused-3afm-j {
+    background-color: rgb(56, 0, 0) !important;
+    background-image: none;
+}
+.headerPlaying-j0WQBV {
+    background-color: rgb(84, 8, 8);
+}
+.activityUserPopout-2yItg2 {
+    background-color: rgb(56, 0, 0);
+    outline-color: red !important;
+}
+
+
+/* Popups */
+.footer-2gL1pp {
+    background-color: rgb(56, 0, 0);
+}
+.horizontalReverse-2eTKWD {
+    box-shadow: 0 0px !important;
+    border-radius: 0px;
+    background-color: rgb(84, 8, 8) !important;
+}
+.horizontalReverse-2eTKWD > .button-38aScr {
+    background-color: black !important;
+    border-radius: 0px;
+    margin-left: 5px;
+}
+.horizontalReverse-2eTKWD > .button-38aScr:hover {
+    background-color: rgb(56, 0, 0) !important;
+}
+.message-2qRu38 {
+    box-shadow: 0 0px !important;
+    background-color: rgb(84, 8, 8) !important;
+}
+.modal-yWgWj- {
+    box-shadow: 0 0px !important;
+    border-radius: 0px;
+    background-color: rgb(56, 0, 0) !important;
+}
+.root-1gCeng {
+    background-color: rgb(84, 8, 8) !important;
+}
+.modal-yWgWj- > .flex-1xMQg5 > .vertical-V37hAW.flex-1xMQg5 {
+    background-color: rgb(56, 0, 0);
+}
+.uploadModal-2ifh8j {
+    border-radius: 0px;
+    background-color: rgb(84, 8, 8) !important;
+    box-shadow: 0 0 0px !important;
+}
+.inner-3nWsbo {
+    outline: 0px;
+}
+.footer-3mqk7D {
+    background-color: rgb(56, 0, 0) !important;
+    outline: 0px;
+    box-shadow: 0 0 0px !important;
+    border-radius: 0px !important;
+}
+.icon-kyxXVr {
+    border-radius: 0px !important;
+}
+.hasSpoilers-1IRtQC > div > .button-38aScr {
+    background-color: transparent;
+}
+.hasSpoilers-1IRtQC > div > .button-38aScr:hover {
+    background-color: rgb(84, 8, 8);
+}
+.hasSpoilers-1IRtQC > div > .button-38aScr:hover {
+    text-decoration: none !important;
+}
+.quickswitcher-3JagVE {
+    box-shadow: 0 0px;
+    border-radius: 0px;
+    background-color: rgb(56, 0, 0);
+}
+.quickswitcher-3JagVE > .scrollerWrap-2lJEkd > .scroller-2FKFPG {
+    background-color: rgb(56, 0, 0) !important;
+}
+.resultFocused-3aIoYe {
+    background-color: rgb(84, 8, 8);
+}
+.input-2VB9rf {
+    box-shadow: 0 0px;
+    border-radius: 0px;
+    background-color: rgb(84, 8, 8);
+}
+.badge-36LyGI {
+    border-radius: 0px;
+    background-color: red;
+}
+
+.subscribeTooltipWrapper-32-Ce8 {
+    border-radius: 0px;
+    background-color: rgb(84, 8, 8);
+}
+.subscribeTooltipButton-r9C2rU {
+    background-color: black !important;
+}
+.subscribeTooltipButton-r9C2rU > .contents-18-Yxp {
+    color: white;
+}
+.subscribeTooltipButton-r9C2rU:hover {
+    background-color: rgb(56, 0, 0) !important;
+}
+.subscribeTooltipWrapper-32-Ce8::after {
+    border-bottom-color: rgb(84, 8, 8);
+}
