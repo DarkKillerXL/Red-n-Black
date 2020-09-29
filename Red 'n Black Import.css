@@ -296,7 +296,7 @@
         border-radius: 0px;
     }
     .platform-win .scroller-2TZvBN {
-        background-color: black;
+        background-color: black !important;
     }
     .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
         background-color: rgb(56, 0, 0);
