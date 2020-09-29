@@ -37,6 +37,20 @@
     .channelTabs-closeTab:hover {
         background-color: rgb(84, 8, 8) !important;
     }
+/* Account Switcher */
+    .accountswitcher-switchmenu {
+        background-color: rgb(84, 8, 8);
+        border-radius: 0px;
+    }
+    .accountswitcher-removeaccount {
+        border: 0px;
+        color: red;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .accountswitcher-removeaccount:hover {
+        background-color: rgb(84, 8, 8) !important;
+        border: 1px solid red;
+    }
 
 /* Header */
 .clickable-2ap7je .header-2o-2hj, .platform-win .sidebar-2K8pFh {
@@ -131,6 +145,20 @@
     opacity: 1;
 }
 
+/* Loading */
+.container-16j22k {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+.tipTitle-GL9qAt {
+    color: red;
+}
+.wrapper-3vR61M, .wrapper-1F5TKx {
+    background-color: transparent !important;
+}
+.noChannel-Z1DQK7 {
+    background: url(https://i.imgur.com/6rlzsb8.png) center/cover;
+}
+
 /* Windows Bar */
 .titleBar-AC4pGV {
     height: 20px;
@@ -140,7 +168,7 @@
     border-bottom: 1px solid red;
 }
 .titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
-    content: "Red 'n Black Dev Version";
+    content: "Red 'n Black v B-1.7";
     font-size: 15px;
     font-family: Arial;
     font-weight: 600;
@@ -786,6 +814,9 @@ visibility: hidden;
 }
 .separator-XqIyoz {
     background-color: red !important;
+}
+.container-36W3SS {
+    background-color: black;
 }
 
 /* Profile Page */
