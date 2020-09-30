@@ -19,6 +19,8 @@
 |_______/  \_______/|__/      |__/  \__/|__/  \__/|__/|__/|__/ \_______/|__/     |__/  |__/|________/
 */
 
+@import url("https://darkkillerxl.github.io/Red-n-Black/Red%20'n%20Black%20Import.css");
+
 /* Customize */
 :root {
     /* Primary Color (Default: rgb(85, 8, 8)) */
@@ -34,4 +36,3 @@
 }
 
 
-@import url("https://darkkillerxl.github.io/Red-n-Black/Red%20'n%20Black%20Import.css");
