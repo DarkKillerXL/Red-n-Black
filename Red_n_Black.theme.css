@@ -31,6 +31,8 @@
     --color10: darkred;
     /* Accent Color (Default: red) */
     --accent-color: red;
-    /* Background Image (change the url inside the brackets, default: https://i.imgur.com/6rlzsb8.png) */
-    --background-url: url(https://i.imgur.com/6rlzsb8.png)
+    /* Background Image (change the url inside the brackets, default: https://i.imgur.com/6rlzsb8.png); */
+    --background-url: url(https://i.imgur.com/6rlzsb8.png);
+    /* Background Color, appear for example behind the server list (Default: black) */
+    --background-color: black;
 }
