@@ -23,16 +23,24 @@
 
 /* Customize */
 :root {
-    /* Primary Color (Default: rgb(85, 8, 8)) */
+    /* Primary Color (Default: rgb(85, 8, 8) ) */
     --color1: rgb(85, 8, 8);
-    /* Secondary Color (Default: rgb(56, 0, 0)) */
+    /* Secondary Color (Default: rgb(56, 0, 0) ) */
     --color2: rgb(56, 0, 0);
+
+    /* Primary Color Buttons On Hover (Default: rgb(95, 0, 0) ) */
+    --color3: rgb(95, 0, 0);
+    /* Secondary Color Buttons On Hover (Default: rgb(66, 0, 0) ) */
+    --color4: rgb(66, 0, 0);
+
     /* Tertiary Color (Default: darkred) */
     --color10: darkred;
+
     /* Accent Color (Default: red) */
     --accent-color: red;
-    /* Background Image (change the url inside the brackets, default: https://i.imgur.com/6rlzsb8.png); */
+
+    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); */
     --background-url: url(https://i.imgur.com/6rlzsb8.png);
-    /* Background Color, appear for example behind the server list (Default: black) */
+    /* Background Color, appears for example behind the server list (Default: black) */
     --background-color: black;
 }
