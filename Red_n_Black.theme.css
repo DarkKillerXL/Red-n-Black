@@ -28,10 +28,10 @@
     /* Secondary Color (Default: rgb(56, 0, 0) ) */
     --color2: rgb(56, 0, 0);
 
-    /* Primary Color Buttons On Hover (Default: rgb(95, 0, 0) ) */
-    --color3: rgb(95, 0, 0);
+    /* Primary Color Buttons On Hover (Default: rgb(95, 9, 9) ) */
+    --color3: rgb(95, 9, 9);
     /* Secondary Color Buttons On Hover (Default: rgb(66, 0, 0) ) */
-    --color4: rgb(66, 0, 0);
+    --color4: rgb(71, 0, 0);
 
     /* Tertiary Color (Default: darkred) */
     --color10: darkred;
@@ -39,8 +39,13 @@
     /* Accent Color (Default: red) */
     --accent-color: red;
 
-    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); */
+    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); ) */
     --background-url: url(https://i.imgur.com/6rlzsb8.png);
     /* Background Color, appears for example behind the server list (Default: black) */
     --background-color: black;
+
+    /* Server image/profile pictures roundness (Default: 0px) */
+    --server-list-rounding: 0px;
+    /* Width for server icons in folders (Default: 40px) */
+    --icon-width: 40px;
 }
