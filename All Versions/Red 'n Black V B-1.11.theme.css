@@ -1,7 +1,7 @@
 /**
 * @name Red 'n Black
 * @author  DarkKillerXL#2636
-* @version  B-2.1
+* @version  B-1.11
 * @description A simple, red and black colored theme
 * @invite aUUeU5m
 * @authorId 332150412763332608
@@ -275,7 +275,7 @@
         border-bottom: 1px solid var(--accent-color);
     }
     .titleBar-AC4pGV .wordmarkWindows-1v0lYD::after {
-        content: "Red 'n Black v B-2.1";
+        content: "Red 'n Black v B-1.11";
         font-size: 15px;
         font-family: Arial;
         font-weight: 600;
