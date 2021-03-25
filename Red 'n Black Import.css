@@ -438,23 +438,23 @@
         .wrapper-25eVIn {
             border-radius: 0px;
         }
-        .scroller-2TZvBN {
+        .scroller-1Bvpku {
             background-color: var(--background-color) !important;
         }
-        .expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU- {
+        .expandedFolderBackground-1cujaW, .expandedFolderIconWrapper-Huv7rA {
             background-color: var(--color2);
         }
-        .expandedFolderIconWrapper-1xLaU-:hover {
+        .expandedFolderIconWrapper-Huv7rA:hover {
             background-color: var(--color1);
         }
-        .folderIconWrapper-226oVY {
+        .folderIconWrapper-1_bOZe  {
             border-radius: 0px;
         }
         foreignObject {
             mask: none;
             border-radius: var(--server-list-rounding);
         }
-        .expandedFolderBackground-2sPsd-, .avatar-1BDn8e {
+        .expandedFolderBackground-1cujaW, .avatar-1BDn8e {
             border-radius: var(--server-list-rounding);
 
         }
